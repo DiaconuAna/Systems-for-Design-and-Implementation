@@ -1,0 +1,14 @@
+
+<ol class = "genres">
+  <li *ngFor = "let genre of genres"
+      [class.selected] = "genre === selectedGenre"
+      (click) =  "onSelect(genre)">
+  {{genre.name}}
+    <button (click) = "deleteGenre(genre)">Delete Genre</button>
+      <button (click)="goToDetail(genre)">View Details</button>
+  </li>
+</ol>
+
+<nav>
+  <button [routerLink]="['/genresNew']" routerLinkActive="router-link-active">Add genre</button>
+</nav>

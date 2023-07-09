@@ -1,0 +1,19 @@
+<h2> Add contract </h2>
+
+<div>
+<label> Actor: </label>
+<select name = "actor" [(ngModel)]="chosenActor">
+  <option *ngFor = "let actor of actors" [ngValue]="actor">
+    {{actor.firstName + " " +  actor.lastName}}
+  </option>
+</select>
+<br>
+<label> Movie: </label>
+<select name = "movie" [(ngModel)]="chosenMovie">
+  <option *ngFor= "let movie of movies" [ngValue]="movie">
+    {{movie.title}}
+  </option>
+</select>
+<br>
+<button (click) = "saveContract()">Save Contract</button>
+</div>

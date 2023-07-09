@@ -1,0 +1,22 @@
+<div *ngIf = "genre">
+
+  <h2> Genre details</h2>
+
+  <div>
+    <label>ID: </label> {{genre.id}}
+  </div>
+
+  <div>
+    <label>Name: </label> {{genre.name}}
+    <input [(ngModel)]="genre.name" placeholder="Enter genre name">
+  </div>
+
+  <div>
+    <label>Name: </label> {{genre.description}}
+    <input [(ngModel)]="genre.description" placeholder="Enter genre description">
+  </div>
+
+  <button (click)="goBack()">Back</button><br>
+  <button (click)="save()">Save</button>
+
+</div>

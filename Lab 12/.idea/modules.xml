@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/catalog-client/lab11.sdilab11.catalog-client.iml" filepath="$PROJECT_DIR$/.idea/modules/catalog-client/lab11.sdilab11.catalog-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/catalog-client/lab11.sdilab11.catalog-client.main.iml" filepath="$PROJECT_DIR$/.idea/modules/catalog-client/lab11.sdilab11.catalog-client.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/catalog-client/lab11.sdilab11.catalog-client.main~1.iml" filepath="$PROJECT_DIR$/.idea/modules/catalog-client/lab11.sdilab11.catalog-client.main~1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/catalog-client/lab11.sdilab11.catalog-client.test.iml" filepath="$PROJECT_DIR$/.idea/modules/catalog-client/lab11.sdilab11.catalog-client.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/catalog-client/lab11.sdilab11.catalog-client.test~1.iml" filepath="$PROJECT_DIR$/.idea/modules/catalog-client/lab11.sdilab11.catalog-client.test~1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/catalog-client/lab11.sdilab11.catalog-client.test~2.iml" filepath="$PROJECT_DIR$/.idea/modules/catalog-client/lab11.sdilab11.catalog-client.test~2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/catalog-client/sdilab11.catalog-client.iml" filepath="$PROJECT_DIR$/.idea/modules/catalog-client/sdilab11.catalog-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/catalog-client/sdilab11.catalog-client.main.iml" filepath="$PROJECT_DIR$/.idea/modules/catalog-client/sdilab11.catalog-client.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/catalog-clienyt/sdilab11.catalog-clienyt.iml" filepath="$PROJECT_DIR$/.idea/modules/catalog-clienyt/sdilab11.catalog-clienyt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/catalog-clienyt/sdilab11.catalog-clienyt.main.iml" filepath="$PROJECT_DIR$/.idea/modules/catalog-clienyt/sdilab11.catalog-clienyt.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/client/sdilab11.client.main.iml" filepath="$PROJECT_DIR$/.idea/modules/client/sdilab11.client.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/client/sdilab11.client.test.iml" filepath="$PROJECT_DIR$/.idea/modules/client/sdilab11.client.test.iml" />
+    </modules>
+  </component>
+</project>

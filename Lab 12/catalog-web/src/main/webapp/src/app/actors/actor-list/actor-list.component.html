@@ -1,0 +1,21 @@
+
+<div *ngIf = "selectedActor">
+  <button (click)="goToDetail()">View Details</button>
+</div>
+
+<ol class = "actors">
+  <li *ngFor = "let actor of actors "
+      [class.selected] = "actor === selectedActor"
+      (click) = "onSelect(actor)">
+      {{actor.firstName + " " +  actor.lastName}}
+    <button (click) = "deleteActor(actor)">Delete Actor</button>
+    <button (click)="goToDetailAux(actor)">View Details</button>
+  </li>
+</ol>
+
+<nav>
+
+  <button [routerLink]="['/actorsNew']" routerLinkActive="router-link-active">Add actor</button>
+  <button (click)="sortByPopularity()">Sort by popularity</button>
+
+</nav>

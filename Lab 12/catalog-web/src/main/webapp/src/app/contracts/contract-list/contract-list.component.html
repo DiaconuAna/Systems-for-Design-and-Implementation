@@ -1,0 +1,9 @@
+
+<p>Contracts</p>
+
+<ol class = "contracts">
+  <li *ngFor="let contract of aggregates">
+    {{"Movie: " + contract.movieTitle + " || Actors: " + contract.actors}}
+</ol>
+
+<button [routerLink]="['/contractsNew']" routerLinkActive="router-link-active">Add contract</button>

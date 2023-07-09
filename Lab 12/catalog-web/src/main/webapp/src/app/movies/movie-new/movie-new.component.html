@@ -1,0 +1,17 @@
+<h2>Add movie</h2>
+
+<div>
+  <label>Title: <input #title></label><br>
+  <label>Director: <input #director></label><br>
+  <label>Genre:
+  <select name = "name" [(ngModel)]="selectedGenre" >
+    <option *ngFor = "let genre of genres" [ngValue]="genre">
+      {{genre.name}}
+    </option>
+  </select>
+  </label><br>
+  <label>Production Country: <input #country></label>
+
+  <button (click) = "saveMovie(title.value, director.value, country.value)">Save Movie</button>
+
+</div>

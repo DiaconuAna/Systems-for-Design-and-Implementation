@@ -1,0 +1,30 @@
+<ol class = "movies">
+  <li *ngFor="let movie of movies"
+      [class.selected] = "movie === selectedMovie"
+      (click) = "onSelect(movie)">
+  {{movie.title}}
+    <button (click) = "deleteMovie(movie)">Delete Movie</button>
+    <button (click) = "goToDetail(movie)">View Details</button>
+  </li>
+</ol>
+
+<label> Choose a genre: </label>
+<select name = "name" [(ngModel)]="selectedGenre" >
+  <option *ngFor = "let genre of genres" [ngValue]="genre">
+    {{genre.name}}
+  </option>
+</select>
+
+<button (click) = "filterByGenre()">Filter movies by genre</button>
+<br>
+<button [routerLink]="['/moviesNew']" routerLinkActive="router-link-active">Add movie</button>
+
+
+<div *ngIf = "filteredMovies">
+  <h4>Filtered movies</h4>
+<li *ngFor = "let m of filteredMovies">
+      {{m.title}}
+</li>
+</div>
+
+

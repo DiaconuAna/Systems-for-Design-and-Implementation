@@ -1,0 +1,16 @@
+<h2>Add actor</h2>
+
+<div class = 'even-row-color'>
+  <label>First-Name: <input #firstName></label><br/>
+  <label>Last-Name: <input #lastName></label><br/>
+  <label>Age: <input #age></label><br/>
+  <label>Gender: </label>
+  <select name = "type" [(ngModel)]="actorGender">
+    <option *ngFor = "let g of gender">{{g}}</option>
+  </select><br>
+
+  <label>Popularity: <input #popularity></label>
+
+
+  <button (click)="saveActor(firstName.value,lastName.value,age.value, popularity.value)">Save Actor</button>
+</div>
